@@ -6,7 +6,7 @@ tags: ["Operating System", "XV6"]
 ---
 
 # 6.1810 2022 Lecture 1: O/S overview
-
+<!--more-->
 ## Overview
 
  - 6.1810 goals
