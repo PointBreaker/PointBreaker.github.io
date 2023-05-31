@@ -315,7 +315,7 @@ theme = "DoIt"
       [params.page.comment.gitalk]
         enable = true
         owner = "PointBreaker"
-        repo = "PointBreaker.github.io.git"
+        repo = "PointBreaker.github.io"
         clientId = "652cfbe7a4a03e47628d"
         clientSecret = "559fa47b9c6af241499853c3cd2612e8598d9985"
       # Valine 评论系统设置
