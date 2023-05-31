@@ -97,7 +97,7 @@ theme = "DoIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "Astronaut"
+      name = "Kernel Space"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -157,16 +157,12 @@ theme = "DoIt"
     # 主页个人信息
     [params.home.profile]
       enable = true
-      # Gravatar 邮箱, 用于优先在主页显示的头像
-      gravatarEmail = "johnbran4real@gmail.com"
       # 主页显示头像的 URL
       # 将你的头像文件放置于 static 或者 assets 目录下
       # 文件路径是相对于 static 或者 assets 目录的
-      avatarURL = "/images/avatar.webp"
-      # 头像的链接指向的 URL
-      avatarLinkURL = ""
+      avatarURL = "./avatar.png"
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = "Kernel Space"
+      title = "Astronaut"
       # 主页显示的网站副标题
       subtitle = "I Write Stuff Here."
       # 是否为副标题显示打字机动画
@@ -278,7 +274,7 @@ theme = "DoIt"
       fullscreen = true
     # 文章页面的分享信息设置
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -312,20 +308,16 @@ theme = "DoIt"
       enable = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
-        # 
-
         enable = false
         # Disqus 的 shortname, 用来在文章中启用 Disqus 评论系统
         shortname = ""
       # Gitalk 评论系统设置
       [params.page.comment.gitalk]
-        # 
-
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "PointBreaker"
+        repo = "PointBreaker.github.io.git"
+        clientId = "652cfbe7a4a03e47628d"
+        clientSecret = "559fa47b9c6af241499853c3cd2612e8598d9985"
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
@@ -606,7 +598,6 @@ theme = "DoIt"
   email = "johnbran4real@gmail.com"
   link = ""
   avatar = ""
-  gravatarEmail = "johnbran4real@gmail.com"
 
 # 网站地图配置
 [sitemap]
@@ -653,7 +644,6 @@ theme = "DoIt"
 # 用于分类的设置
 [taxonomies]
 author = "authors"
-category = "categories"
 tag = "tags"
 series = "series"
 
@@ -678,11 +668,3 @@ series = "series"
     url = "/tags/"
     title = ""
     weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
-    weight = 3
