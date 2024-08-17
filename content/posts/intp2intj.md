@@ -1,7 +1,8 @@
 ---
 title: "Intp2intj"
 date: 2024-08-18T01:12:49+08:00
-draft: true
+draft: false
+tags: ["情感"]
 ---
 
 # **INTP** ❌ **INTJ** ✅
